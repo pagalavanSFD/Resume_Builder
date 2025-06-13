@@ -1,0 +1,47 @@
+
+/* TabNavigation.css */
+
+.tab-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(to right, rgb(196, 225, 230), rgb(235, 255, 216));
+  padding: 0.75rem 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.tab-item {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 0.5rem 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid transparent;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: #1f2937;
+  transition: all 0.2s ease-in-out;
+}
+
+.tab-item:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-color: rgb(141, 188, 199);
+}
+
+.tab-item.active {
+  background-color: rgb(141, 188, 199);
+  color: white;
+  font-weight: 600;
+  border-color: transparent;
+}
+
+@media (max-width: 640px) {
+  .tab-nav {
+    flex-direction: column;
+  }
+
+  .tab-item {
+    width: 100%;
+    text-align: left;
+  }
+}

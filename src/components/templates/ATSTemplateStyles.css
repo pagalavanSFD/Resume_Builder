@@ -1,0 +1,29 @@
+.ats-resume {
+  font-family: Arial, sans-serif;
+  color: #111;
+  line-height: 1.6;
+  padding: 2rem;
+  background: white;
+  max-width: 800px;
+  margin: auto;
+}
+
+.ats-resume h1 {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.ats-resume h2 {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.25rem;
+}
+
+.ats-resume p {
+  margin: 0.5rem 0;
+}
+
+.ats-resume section {
+  margin-bottom: 1.5rem;
+}

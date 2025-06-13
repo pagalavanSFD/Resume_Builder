@@ -1,0 +1,30 @@
+.resume-preview--modern {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #e7f0f2, #f8fcfd);
+  color: #2a3f4c;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.resume-preview--modern h2 {
+  font-size: 2.2rem;
+  color: #204b57;
+  border-bottom: 2px solid #abcbd4;
+  padding-bottom: 0.5rem;
+}
+
+.resume-preview--modern h3 {
+  color: #2d5a6b;
+  font-size: 1.2rem;
+  margin-top: 1.25rem;
+}
+
+.resume-preview--modern ul {
+  list-style: square;
+  padding-left: 1.2rem;
+}
+
+.resume-preview--modern p, .resume-preview--modern li {
+  margin: 0.3rem 0;
+}

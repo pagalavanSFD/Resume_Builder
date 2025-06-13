@@ -1,0 +1,23 @@
+/* BuilderPage.css */
+
+.app-container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease-in-out;
+}
+
+.form-section {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    padding: 1.2rem;
+  }
+
+  .form-section {
+    margin-top: 1rem;
+  }
+}

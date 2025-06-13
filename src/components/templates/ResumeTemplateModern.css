@@ -1,0 +1,66 @@
+.resume-modern {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+  color: #222;
+  background: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.modern-header {
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 1.5rem;
+}
+
+.modern-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: rgb(41, 73, 92);
+}
+
+.modern-header p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+section {
+  margin-bottom: 1.5rem;
+}
+
+section h2 {
+  color: rgb(41, 73, 92);
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.75rem;
+}
+
+.item-block h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.item-duration {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.inline-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.inline-list li {
+  background: rgb(196, 225, 230);
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+}

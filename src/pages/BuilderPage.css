@@ -1,0 +1,45 @@
+/* BuilderPage.css */
+
+.app-container {
+  background:transparent;
+  padding: 2rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease-in-out;
+}
+
+.form-section {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    padding: 1.2rem;
+  }
+
+  .form-section {
+    margin-top: 1rem;
+  }
+}
+
+.action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.action-buttons button {
+  background: rgb(141, 188, 199);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.action-buttons button:hover {
+  background: rgb(120, 170, 180);
+}

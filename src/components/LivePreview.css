@@ -1,0 +1,29 @@
+.live-preview {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  font-family: "Segoe UI", sans-serif;
+  color: #1f2937;
+}
+
+.live-preview h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.preview-block {
+  margin-bottom: 1.5rem;
+}
+
+.preview-block h4 {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.preview-block p,
+.preview-block li {
+  margin: 0.25rem 0;
+  font-size: 0.95rem;
+}
