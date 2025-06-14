@@ -1,4 +1,5 @@
 /* ResumePreview.css */
+
 .resume-preview {
   width: 8.5in;
   min-height: 11in;
@@ -57,4 +58,48 @@
 
 .resume-preview a:hover {
   text-decoration: underline;
+}
+
+/* === Responsive Enhancements === */
+@media (max-width: 1024px) {
+  .resume-preview {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 13.5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .resume-preview {
+    width: 100%;
+    padding: 1.25rem;
+    font-size: 13px;
+  }
+
+  .resume-preview h2 {
+    font-size: 20px;
+  }
+
+  .resume-preview h3 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .resume-preview {
+    padding: 1rem;
+    font-size: 12.5px;
+  }
+
+  .resume-preview h2 {
+    font-size: 18px;
+  }
+
+  .resume-preview h3 {
+    font-size: 14px;
+  }
+
+  .resume-preview ul {
+    margin-left: 1rem;
+  }
 }

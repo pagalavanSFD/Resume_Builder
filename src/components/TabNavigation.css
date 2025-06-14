@@ -1,4 +1,3 @@
-
 /* TabNavigation.css */
 
 .tab-nav {
@@ -35,13 +34,24 @@
   border-color: transparent;
 }
 
-@media (max-width: 640px) {
+/* === Responsive Enhancements === */
+@media (max-width: 768px) {
   .tab-nav {
     flex-direction: column;
+    padding: 0.5rem 0.75rem;
   }
 
   .tab-item {
     width: 100%;
+    font-size: 0.95rem;
     text-align: left;
+    padding: 0.6rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tab-item {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.85rem;
   }
 }

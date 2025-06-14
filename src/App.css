@@ -1,4 +1,4 @@
-/* BuilderPage.css */
+/* App.css */
 
 .app-container {
   background: rgba(255, 255, 255, 0.95);
@@ -12,12 +12,36 @@
   margin-top: 1.5rem;
 }
 
+/* === Responsive Enhancements === */
+@media (max-width: 1024px) {
+  .app-container {
+    padding: 1.5rem;
+  }
+
+  .form-section {
+    margin-top: 1.2rem;
+  }
+}
+
 @media (max-width: 768px) {
   .app-container {
     padding: 1.2rem;
+    border-radius: 1rem;
   }
 
   .form-section {
     margin-top: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-container {
+    padding: 1rem;
+    box-shadow: none;
+    border-radius: 0.75rem;
+  }
+
+  .form-section {
+    margin-top: 0.75rem;
   }
 }

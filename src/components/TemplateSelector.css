@@ -25,3 +25,23 @@
   background: linear-gradient(135deg, rgb(121, 168, 179), rgb(196, 225, 230));
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
 }
+
+/* === Responsive Enhancements === */
+@media (max-width: 768px) {
+  .template-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .template-options {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .template-btn {
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -25,6 +25,58 @@
   padding-left: 1.2rem;
 }
 
-.resume-preview--modern p, .resume-preview--modern li {
+.resume-preview--modern p,
+.resume-preview--modern li {
   margin: 0.3rem 0;
+}
+
+/* === Responsive Enhancements === */
+@media (max-width: 1024px) {
+  .resume-preview--modern {
+    padding: 1.5rem;
+  }
+
+  .resume-preview--modern h2 {
+    font-size: 1.9rem;
+  }
+
+  .resume-preview--modern h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .resume-preview--modern {
+    padding: 1.25rem;
+  }
+
+  .resume-preview--modern h2 {
+    font-size: 1.6rem;
+  }
+
+  .resume-preview--modern h3 {
+    font-size: 1rem;
+  }
+
+  .resume-preview--modern {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .resume-preview--modern {
+    padding: 1rem;
+  }
+
+  .resume-preview--modern h2 {
+    font-size: 1.4rem;
+  }
+
+  .resume-preview--modern h3 {
+    font-size: 0.95rem;
+  }
+
+  .resume-preview--modern {
+    font-size: 0.9rem;
+  }
 }
